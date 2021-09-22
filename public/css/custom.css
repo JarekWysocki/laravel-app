@@ -1,0 +1,142 @@
+#navbarSupportedContent img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.py-4 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+p.card-text {
+  margin: 0;
+}
+#demo p {
+  display: inline;
+}
+#demo div {
+  display: inline;
+}
+.users {
+  font-size: 12px;
+  overflow-x: scroll;
+  overflow-y: clip;
+}
+span.close {
+  cursor: default;
+}
+.online {
+  border-style: solid;
+  border-color: #31a24c;
+}
+.user img {
+  cursor: pointer;
+}
+.chatWindows {
+  position: absolute;
+  bottom: 0;
+}
+.card-message {
+  overflow-y: scroll;
+}
+.prv {
+  position: relative;
+  left: 0;
+  float: left;
+}
+img.imageOfPost {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  margin: auto;
+}
+.like,
+.wholike,
+.whoislike {
+  cursor: pointer;
+}
+.whoislike {
+  font-size: 11px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.03);
+  z-index: 1000;
+  top: 0;
+  left: 80px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.whoislike p {
+  margin-bottom: 0;
+}
+.commentForm {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.post {
+  margin-bottom: 10px;
+}
+.comments img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.comments li {
+  font-weight: bold;
+}
+.comments span {
+  font-weight: normal;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.card-footer {
+  position: relative;
+}
+.alert-info {
+  position: sticky;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.in {
+  text-align: right;
+  background-color: #e7ebf2;
+  padding: 2px;
+  margin: 2px !important;
+}
+.out {
+  text-align: left;
+  background-color: #cfd8e6;
+  padding: 2px;
+  margin: 2px !important;
+}
+@media only screen and (max-width: 579px) {
+  #demo div {
+    display: block;
+  }
+  .all {
+    padding: 0;
+  }
+  .card-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .chatWindows {
+    position: relative;
+  }
+  .prv {
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+  }
+  small,
+  .small,
+  .wholike,
+  .whoislike {
+    font-size: 110%;
+  }
+}
