@@ -1,4 +1,3 @@
-Live demo -> https://test.jarek.info.pl
 This is my project based mainly on php/laravel/js/jquery/ajax/bootstrap System with users who can sign up. After then you can login to page with current other users. 
 Functionalities:
 Loading posts in stages.
